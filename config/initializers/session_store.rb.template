@@ -6,7 +6,7 @@
 # no regular words or you'll be exposed to dictionary attacks.
 ActionController::Base.session = {
   :key         => '_powerdns-on-rails_session',
-  :secret      => 'e39886c141ee8bacc6be9c5ef1d4c47693a7613f6b087e04e3ae32a01fa5a6c5c06170e3d85d761f06a0a67a3b0eaec3131f5019ad468af57196e465cd0ded9a'
+  :secret      => 'INSERT SECRET HERE' # You can generate one with "rake secret"
 }
 
 # Use the database for sessions instead of the cookie-based default,
