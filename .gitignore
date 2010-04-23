@@ -5,3 +5,5 @@ db/*.sqlite3
 doc/api
 doc/app
 nbproject/private
+tmp
+log
