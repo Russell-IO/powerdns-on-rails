@@ -7,3 +7,4 @@ config/database.yml
 /.vagrant
 .env
 .env.*
+public/assets/**
