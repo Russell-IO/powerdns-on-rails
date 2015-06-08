@@ -28,6 +28,8 @@ gem 'state_machine'
 gem 'acts_as_list'
 gem 'dynamic_form'
 
+gem 'dotenv-rails'
+
 group :development do
   gem 'debugger', :platform => :mri_19
   #gem 'RedCloth', '>= 4.1.1'

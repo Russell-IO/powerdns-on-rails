@@ -22,7 +22,7 @@ describe ReportsController, "index" do
 
     response.should render_template('reports/index')
     assigns(:total_domains).should be(Domain.count)
-    assigns(:system_domains).should be(1)
+    assigns(:system_domains).should eql(0)
   end
 end
 
