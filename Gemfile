@@ -29,6 +29,7 @@ gem 'acts_as_list'
 gem 'dynamic_form'
 
 gem 'dotenv-rails'
+gem 'capistrano-rails', group: :development
 
 group :development do
   gem 'debugger', :platform => :mri_19
