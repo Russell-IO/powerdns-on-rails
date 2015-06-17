@@ -7,6 +7,7 @@
   %td{ :width => 30 }= record.type
   %td{ :width => 30 }= record.prio
   %td{ :width => 250 }= record.content
+    %div{:style => 'overflow: auto; width: 250px;' }= record.content
   %td{ :width => 39 }
     - unless record.domain.slave?
       - if current_user || current_token.can_change?( record )
