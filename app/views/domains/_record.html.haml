@@ -6,7 +6,7 @@
   %td{ :width => 50 }= record.ttl
   %td{ :width => 30 }= record.type
   %td{ :width => 30 }= record.prio
-  %td{ :width => 250 }= record.content
+  %td{ :width => 250 }
     %div{:style => 'overflow: auto; width: 250px;' }= record.content
   %td{ :width => 39 }
     - unless record.domain.slave?
