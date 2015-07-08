@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.2.21'
+gem 'rails', github: 'rails/rails', branch: '3-2-stable'
 
 group :assets do
   gem 'sass-rails'
